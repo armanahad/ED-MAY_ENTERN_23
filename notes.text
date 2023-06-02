@@ -1,0 +1,20 @@
+welcome to edureka
+
+CSS-Cascading Style Sheet
+--------------------------
+
+3 ways to define CSS
+---------------------
+
+1.inline - style="color:white"; background-color:tomato; font-size:30px;"> style attribute using inside html  
+
+
+2. Internal Styling- <style></style> => element/tag in<head> tag
+<style> 
+body{
+    background-color:red;
+}
+</style>
+
+3. External Css - <link> element to link external css file
+<link rel="stylesheet" href="index.css"/>

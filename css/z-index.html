@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+        img{
+            position: absolute;
+            z-index: -1;
+            top: 10px;
+        }
+        p{
+         font-size: 27px;
+         color:red3;
+        }
+        .box1{
+            position: relative;
+          border: 1px solid rgb(239, 208, 208);
+          width: 200px;
+          height: 100px;
+          text-align: center;
+          z-index: 1;
+          background-color:rgb(214, 55, 209);  
+          left: 400px;
+          top: 20px;
+        }
+         .box2{
+            position: absolute;
+          border: 1px solid rgb(102, 36, 36);
+          width: 400px;
+          height: 150px;
+          z-index: 5;
+          text-align: center;
+          background-color:rgb(55, 159, 84);  
+        }
+         .box3{
+            position: absolute;
+          border: 1px solid rgb(135, 129, 129);
+          width: 600px;
+          height: 130px;
+          text-align: center;
+          background-color:rgb(208, 192, 42);  
+          z-index: 3;
+        }
+    </style>
+</head>
+<body>
+  <div>  <div class="box1">BOX-1</div>
+    <div class="box2">BOX-2</div>
+    <div class="box3">BOX-3</div></div>
+    <br><br>
+
+    <h1>Z-index Property</h1>
+    <img width="600px" height="400px"
+    src="C:\Users\AHAD\Desktop\ED-MAY_ENTERN_23\images\sad.png" alt="">
+    <p>feel the life with the rule of divine</p>
+
+    
+    
+</body>
+</html>

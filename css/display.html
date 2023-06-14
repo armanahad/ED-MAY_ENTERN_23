@@ -7,16 +7,39 @@
   </head>
   <head>
     <style>
-        span.display{
+        span.display1{
             color: green;
             font-size: 20px;
             /* display: none; */
             display: block;
+            width: 400px;
+            height: 80px;
+            border: 1px solid red;
+            background-color: tomato;
+            color: rgb(231, 212, 212);
+        }
+        .display2{
+            display:inline ;
+        }
+        .display3{
+          width:800px;
+          height: 400px;
+          border: 2px solid green;
+        
+        }
+        .display3 .box{
+          display:  inline-block;
+          width: 200px;
+          height: 100px;
+          border: 1px solid red;
+          margin: 10px 20px;
+          text-align: center;
+          background-color:rgb(241, 176, 176);
         }
     </style>
   </head>
   <body>
-    <h1>display property</h1>
+    <h1>display inline proerty  behave like block</h1>
     <hr />
     <div>
       <p>
@@ -24,10 +47,39 @@
         impedit consequatur ipsa laudantium sed eveniet. Provident at expedita
         quae odit in quo perferendis animi ullam sint quis impedit ut eius
         temporibus dolorum eaque, praesentium tenetur assumenda
-        <span class="display">span Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam rem illo culpa.</span> vitae nobis
-        iure? Doloribus iusto possimus voluptatum, <span> span2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, accusamus?</span> voluptates aspernatur fugit.
+        <span class="display1">span Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam rem illo culpa.</span> vitae nobis
+        iure? Doloribus iusto possimus voluptatum, <span class="display1"> span2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, accusamus?</span> voluptates aspernatur fugit.
         Laborum aut molestiae facere dolorum consequuntur. Ipsam, saepe totam!
       </p>
+    </div>
+    <h1>display block proerty  behave like inline</h1>
+    <hr />
+    <div class="display2">
+      <p class="display2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, odit
+        impedit consequatur ipsa laudantium sed eveniet. Provident at expedita
+        quae odit in quo perferendis animi ullam sint quis impedit ut eius
+        temporibus dolorum eaque, praesentium tenetur assumenda
+        <p class="display2">span Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam rem illo culpa.</p> vitae nobis
+        iure? Doloribus iusto possimus voluptatum, <p class="display2"> span2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, accusamus?</p> voluptates aspernatur fugit.
+        Laborum aut molestiae facere dolorum consequuntur. Ipsam, saepe totam!
+      </p>
+    </div>
+    <hr>
+    <h1>display block inline property</h1>
+    <div class="display3">
+      <div class="box">
+        <p>box one Lorem, ipsum.</p>
+      </div>
+      <div class="box">
+        <p>box one Lorem, ipsum.</p>
+      </div>
+      <div class="box">
+        <p>box one Lorem, ipsum.</p>
+      </div>
+      <div class="box">
+        <p>box one Lorem, ipsum.</p>
+      </div>
     </div>
   </body>
 </html>

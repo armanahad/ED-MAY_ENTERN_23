@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pseudo class</title>
+    <style>
+      .pseudo {
+        border: 2px solid black;
+        width: 800px;
+        height: 300px;
+        margin: 50px;
+        padding: 20px;
+      }
+      .pseudo:hover {
+        background-color: rgb(79, 131, 26);
+        color: white;
+      }
+      .hide {
+        color: wheat;
+        width: 600px;
+        height: 100px;
+        margin: 20px 100px 2px;
+        top: 120px;
+        padding-top: 30px;
+        text-align: center;
+        background-color: darkolivegreen;
+        font-size: 40px;
+        display: none;
+      }
+      h2 {
+        border: 1px solid black;
+        height: 200px;
+        font-size: 30px;
+        color: green;
+        left: 100px;
+      }
+
+      h2:hover .hide {
+        display: block;
+      }
+      input:focus {
+        background-color: rgb(244, 218, 214);
+      }
+      a:link {
+        color: rgb(27, 27, 29);
+      }
+      a:visited {
+        color: green;
+      }
+      a:hover {
+        color: rgb(7, 7, 7);
+      }
+      a:active {
+        color: rgb(97, 3, 116);
+      }
+      li:nth-child(4) {
+        list-style: none;
+        color: blueviolet;
+        font-size: 20px;
+      }
+      li:nth-child(odd) {
+        color: red;
+        font-size: 10pxs;
+      }
+      li:nth-child(even) {
+        color: rgb(8, 172, 52);
+      }
+      p:first-child {
+        font-size: 30px;
+        color: red;
+      }
+      h1:first-child {
+        font-size: 50px;
+        color: red;
+      }
+     
+      
+    </style>
+  </head>
+  <body>
+    <p>first child</p>
+    <div class="pseudo">
+      <h1>after touching back ground color will change</h1>
+      <p>TOUCH me!!!</p>
+    </div>
+    <br /><br />
+    <h2>
+      hover me to show content
+      <p class="hide">heloo every one i am nw visible</p>
+    </h2>
+    <br /><br />
+    <h1>focused to input tag</h1>
+    <label for="name">Name</label>
+    <input type="text" id="name" /> <br /><br />
+
+    <a href="../images/delhi.png" target="_blank"> images</a>
+    <ul>
+      <li class="item0">item1</li>
+      <li class="item1">item2</li>
+      <li class="item2">item3</li>
+      <li class="item3">item4</li>
+      <li class="item4">item5</li>
+      <li class="item5">item6</li>
+      <li class="item6">item7</li>
+      <li class="item7">item8</li>
+      <li class="item8">item9</li>
+    </ul>
+    <div>
+      <h1>h1 first child in div block</h1>
+      <h3>h3 second child div block</h3>
+    </div>
+  </body>
+</html>

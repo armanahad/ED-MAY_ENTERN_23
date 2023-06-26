@@ -359,3 +359,7 @@ body{
 
  display: block - text will be visible 
  visibility: visible => text will be visible 
+
+ flex  -  flex is a one dimensional layout-either it will align the items in row or columns
+   
+ grid  -  grid is two dimensional layout -it will align both rows or columns   

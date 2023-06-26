@@ -1,0 +1,74 @@
+<!DOCTYPE html>-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images-grid </title> 
+    <style>
+        
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+           }
+           .gallery_item img{
+            width: 100% ;
+            height: 100%;
+            object-fit: cover;
+        }
+        .gallery_item--1{
+       /* grid-column-start: 1;
+       grid-column-end: 5; */
+       grid-column: 1/3;
+        }
+       
+    </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="gallery">
+     <figure class="gallery_item gallery_item--1">
+        <img 
+        
+        src="https://tse1.mm.bing.net/th?id=OIP.kkbjVm5xZLbOVdnHTo3vywHaEO&pid=Api&P=0&h=180" 
+        
+        alt="IMAGE-1">
+     </figure>
+     <figure class="gallery_item gallery_item--2">
+        <img 
+        
+        src="https://tse1.mm.bing.net/th?id=OIP.hYsne1UKcW7ynrttJ1wByQHaEZ&pid=Api&P=0&h=180" 
+        
+        alt="IMAGE-1">
+     </figure>
+     <figure class="gallery_item gallery_item--3">
+        <img 
+        
+        src="https://tse2.mm.bing.net/th?id=OIP.DvYg52DYzCfjNze5Co1r7AHaEK&pid=Api&P=0&h=180" 
+        
+        alt="IMAGE-1">
+     </figure>
+     <figure class="gallery_item gallery_item--4">
+        <img 
+        
+        src="https://tse1.mm.bing.net/th?id=OIP.nGQeXBnunyTIz8WKq3ITUgHaD2&pid=Api&P=0&h=180" 
+        
+        alt="IMAGE-1">
+     </figure>
+     <figure class="gallery_item gallery_item--5">
+        <img 
+        
+        src="https://tse1.mm.bing.net/th?id=OIP.yiHmJhBC86Hb8I0PsqZhiAHaEK&pid=Api&P=0&h=180" 
+        
+        alt="IMAGE-1">
+     </figure>
+     <figure class="gallery_item gallery_item--6">
+        <img 
+        
+        src="https://tse2.mm.bing.net/th?id=OIP.ZeOTeEEVLaIF_j1I0c3y5AHaCx&pid=Api&P=0&h=180" 
+        
+        alt="IMAGE-1">
+     </figure>
+    </div>
+  </div>  
+</body>
+</html>

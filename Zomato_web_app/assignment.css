@@ -1,0 +1,19 @@
+*{
+         margin: 0;
+          font-family: Poppins;
+}
+header{
+          background-color: #CE0505;
+          height: 50px;
+}
+.logo_span{
+         
+          border-radius: 50%;
+          background-color: aliceblue;
+        
+}
+.logo_span #logo{
+          text-decoration: none;
+          color: #CE0505;
+          
+}
